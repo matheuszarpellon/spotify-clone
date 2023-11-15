@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--green-500: #1db954;
+	--green-300: #1ed760;
+
+  --gray-500: #919496;
+
+  --white: #fff;
+  --black: #000;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+/* Logo */
+.logo {
+	height: 2.5rem;
+	width: auto;
+}
+
+/* Navbbar */
+#navbar {
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: var(--white);
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#navbar .navbar-container {
+	width: 70%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1.25rem 0;
+}
+
+#navbar .navbar-container ul {
+	display: flex;
+	list-style: none;
+	font-weight: bold;
+}
+
+#navbar .navbar-container ul li {
+	padding: 0 1.25rem;
+	transition: all 300ms ease;
+}
+
+#navbar .navbar-container ul li:hover {
+	color: var(--green-500);
+	cursor: pointer;
+}
+
+#navbar .navbar-container ul li:nth-child(3) {
+	border-right: 1px solid white;
+}
+
+/* Showcase */
+#showcase {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--white);
+	background: url("/img/showcase.webp") center center/cover;
+	background-color: rgba(0, 0, 0, 0.4);
+	background-blend-mode: color;
+}
+
+#showcase .showcase-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#showcase .showcase-container h2 {
+	font-size: 5rem;
+}
+
+#showcase .showcase-container p {
+	margin: 0.938rem 0;
+	font-size: 1.1rem;
+}
+
+/* Button */
+.btn-primary {
+	background: var(--green-500);
+	color: var(--white);
+	text-transform: uppercase;
+	padding: 0.938rem 3.75rem;
+	border: none;
+	border-radius: 1.875rem;
+	letter-spacing: 1px;
+	font-weight: bold;
+	transition: all 300ms ease;
+}
+
+.btn-primary:hover {
+	background: var(--green-300);
+	cursor: pointer;
+}
+
+/* Footer */
+#footer {
+	background: var(--black);
+	color: var(--white);
+	padding: 5rem 0;
+}
+
+/* Footer Content */
+#footer .footer-content {
+	display: flex;
+	width: 70%;
+	margin: auto;
+	justify-content: space-between;
+}
+
+#footer .footer-content .footer-menu {
+	margin: 0 3.5rem;
+	list-style: none;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item {
+	margin: 1.563rem 0;
+	transition: all 300ms ease;
+}
+
+#footer .footer-content .footer-menu .footer-menu-item:hover {
+	color: var(--green-500);
+	cursor: pointer;
+}
+
+#footer .footer-content .footer-menu p {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: var(--gray-500);
+	font-size: 0.8rem;
+}
+
+/* Footer Socials */
+.socials {
+	display: flex;
+	height: 100%;
+}
+
+.socials i {
+	margin: 0 1.25rem;
+	font-size: 1.7rem;
+	transition: all 300ms ease;
+}
+
+.socials i:hover {
+	color: var(--green-500);
+	cursor: pointer;
+}
+
+/* Footer Info */
+.footer-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	width: 70%;
+	margin: auto;
+	font-weight: bold;
+	color: var(--gray-500);
+	font-size: 0.75rem;
+	padding-top: 3.125rem;
+}
+
+.footer-info .footer-info-items {
+	display: flex;
+	list-style: none;
+}
+
+.footer-info .footer-info-items .footer-info-item {
+	margin: 0 0.625rem;
+	transition: all 300ms ease;
+}
+
+.footer-info .footer-info-items .footer-info-item:hover {
+	color: var(--default-green);
+	cursor: pointer;
+}
+
+.footer-info .rights .country {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin-bottom: 0.625rem;
+}
+
+.footer-info .rights .country p {
+	transition: all 300ms ease;
+}
+
+.footer-info .rights .country p:hover {
+	color: var(--default-green);
+	cursor: pointer;
+}
+
+.footer-info .rights .country .brazil-flag {
+	height: 1.25rem;
+	width: auto;
+	display: inline-block;
+	margin-left: 0.625rem;
+}
