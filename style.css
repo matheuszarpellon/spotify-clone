@@ -70,7 +70,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	color: var(--white);
-	background: url("/img/showcase.webp") center center/cover;
+	background: url("./img/showcase.webp") center center/cover;
 	background-color: rgba(0, 0, 0, 0.4);
 	background-blend-mode: color;
 }
@@ -149,6 +149,11 @@ body {
 .socials {
 	display: flex;
 	height: 100%;
+}
+
+.socials a {
+	text-decoration: none;
+	color: inherit;
 }
 
 .socials i {
