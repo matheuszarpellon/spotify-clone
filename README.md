@@ -9,6 +9,8 @@ Desafio guiado realizado no programa Sharp Coders 2023.
 - Javascript
 
 
+Você pode visualizar o projeto [aqui](https://matheuszarpellon.github.io/spotify-clone/)
+
 ---
 
 Feito com ❤️ por Matheus Verdelho Zarpellon.
